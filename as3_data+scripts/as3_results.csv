@@ -1,0 +1,5 @@
+Operation, Index, Number of Records, Time (ms)
+Create Person Table, False, 20000, 1.246804
+Create History Table, False, 300000, 13.152458
+Count Person Records, False, 300000, 0.323338
+Count History Records, False, 300000, 0.141342
