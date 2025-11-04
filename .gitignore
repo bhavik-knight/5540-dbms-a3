@@ -210,3 +210,5 @@ __marimo__/
 # ide-editors
 .vscode
 .idea
+__MACOSX
+
