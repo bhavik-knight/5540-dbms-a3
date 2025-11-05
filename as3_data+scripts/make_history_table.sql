@@ -1,4 +1,4 @@
-drop table if exists history;
+DROP TABLE IF EXISTS history;
 
 create table if not exists history (
 	pid INT,

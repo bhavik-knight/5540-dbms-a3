@@ -1,5 +1,3 @@
 Operation, Index, Number of Records, Time (ms)
-Create Person Table, False, 20000, 1.246804
-Create History Table, False, 300000, 13.152458
-Count Person Records, False, 300000, 0.323338
-Count History Records, False, 300000, 0.141342
+Create Person Table and load data, False, 20000, 1.692509
+Create History Table and load data, False, 300000, 8.785791
