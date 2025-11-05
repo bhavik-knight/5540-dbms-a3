@@ -9,7 +9,8 @@ class DBConnection:
         self.db_name = db_name
         self.user_name = user_name
         self.password = password
-        generate_history_records()
+        # run this only at the beginning of the script once
+        # generate_history_records()
 
 
     def get_connection(self):

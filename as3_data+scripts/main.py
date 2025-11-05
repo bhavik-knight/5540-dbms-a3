@@ -20,10 +20,12 @@ def main():
     db_object = DBConnection(db_name, user_name, password)
     cnx = db_object.get_connection()
 
-    if cnx:
-        print("Connection to database was successful!")
+    # get a cursor object for db connection
+    cursor = cnx.cursor()
+    if cursor:
+        print(f"Obtain cursor for the db. type{cursor}")
     else:
-        print("Connection to database failed.")
+        sys.exit("Connection to database failed.")
 
     # execute the as3 related tasks
     print("Executing Assignment 3 tasks...")
@@ -33,7 +35,7 @@ def main():
     clean_file(outfile)
 
     # create tables and load data
-    create_tables(cnx)
+    create_tables(cursor)
 
     return None
 

@@ -1,22 +1,17 @@
+import sys
 import subprocess
 from time import process_time_ns
+
+from mysql.connector.cursor_cext import CMySQLCursor
+
 from record_time import record_time
 
 
-def create_tables(cnx: object):
+def create_tables(cursor: CMySQLCursor):
     """
     Creates table and loads the necessary data needed for the assignment
     "param cnx: connection to database
     """
-
-    if not cnx:
-        print("No valid connection object")
-        return
-
-    # get cursor
-    cursor = cnx.cursor()
-
-    # create csv file and write header
     try:
         with open("as3_results.csv", 'w') as outfile:
             outfile.write("Operation, Index, Number of Records, Time (ms)\n")
@@ -65,17 +60,14 @@ def create_tables(cnx: object):
     print(f"Number of records in history table: {result.stdout.strip()}")
 
 
-def default_query(cnx:object, num_records: int, index: bool = False) -> None:
+def default_query(cursor:CMySQLCursor, num_records: int, index: bool = False) -> None:
     """
     execute the default query and measure the performance
-    :param cnx: connection to database
+    :param cursor: connection to database
+    :param num_records: int - number of records to generate
     :param index: boolean - whether to index or not
     :return: None
     """
-    if not cnx:
-        print("No valid connection object")
-
-    cursor = cnx.cursor()
 
     query = """
     SELECT lname, fname 
@@ -88,6 +80,17 @@ def default_query(cnx:object, num_records: int, index: bool = False) -> None:
     cursor.execute(query)
     end_time = process_time_ns()
     record_time(start_time, end_time, "READ Operation: SELECT")
+
+
+def insert_query(cursor: CMySQLCursor, num_records: int, index: bool = False) -> None:
+    """
+    execute the insert query and measure the performance
+    :param cursor: connection to database
+    :param num_records: int - number of records to insert
+    :param index: boolean - whether to index or not
+    :return: None
+    """
+    pass
 
 
 def clean_file(file_name:str) -> None:
