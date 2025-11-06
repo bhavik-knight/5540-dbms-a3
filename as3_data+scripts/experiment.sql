@@ -12,7 +12,7 @@ ROLLBACK;
 
 -- update query with city
 BEGIN;
-DELETE FROM history WHERE city="Las Vegas";
+DELETE FROM history WHERE city="Oslo";
 ROLLBACK;
 
 
@@ -22,3 +22,8 @@ DELETE FROM history WHERE country="Norway";
 ROLLBACK;
 
 SET PROFILING=0;
+
+-- delete 100_000 records
+BEGIN;
+DELETE FROM history LIMIT 100000;
+ROLLBACK;
