@@ -108,7 +108,7 @@ def delete_query(cnx: CMySQLConnection, num_records: int= 100_000, index: bool =
     cnx.rollback()
     end_time = process_time_ns()
     op_name = "DELETE_100K"
-    op_description = f"DELETE 100,000 records from history"
+    op_description = f"DELETE 100K records from history"
     record_time(start_time, end_time, op_name, op_description, index=index, num_records=num_records)
 
 

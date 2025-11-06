@@ -1,185 +1,185 @@
 Operation Name, Index, Number of Records, Time (ms), Operation Description
-CREATE_AND_LOAD_NEW, False, 20000, 1.474074, Create Person Table and load data
-CREATE_AND_LOAD_NEW, False, 300000, 18.535145, Create history table and load data into it from phistory.tsv
-CREATE_AND_LOAD_NEW, False, 300000, 13.069133, Create history table and load data into it from phistory.tsv
-SELECT, False, 300000, 0.185448, SELECT query given in the PDF
-INSERT_1000, False, 300000, 0.171729, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 300000, 0.256551, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 300000, 0.288524, DELETE all records from history where country='Norway'
-DELETE_100K, False, 300000, 0.286616, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 325000, 32.088312, Create history table and load data into it from phistory.tsv
-SELECT, False, 325000, 0.17809, SELECT query given in the PDF
-INSERT_1000, False, 325000, 0.209045, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 325000, 0.244364, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 325000, 0.335383, DELETE all records from history where country='Norway'
-DELETE_100K, False, 325000, 0.243837, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 350000, 10.536941, Create history table and load data into it from phistory.tsv
-SELECT, False, 350000, 0.217503, SELECT query given in the PDF
-INSERT_1000, False, 350000, 0.278031, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 350000, 0.358021, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 350000, 0.310129, DELETE all records from history where country='Norway'
-DELETE_100K, False, 350000, 0.295624, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 375000, 17.220118, Create history table and load data into it from phistory.tsv
-SELECT, False, 375000, 0.185834, SELECT query given in the PDF
-INSERT_1000, False, 375000, 0.240336, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 375000, 0.332515, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 375000, 0.25899, DELETE all records from history where country='Norway'
-DELETE_100K, False, 375000, 0.336491, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 400000, 19.805812, Create history table and load data into it from phistory.tsv
-SELECT, False, 400000, 0.162352, SELECT query given in the PDF
-INSERT_1000, False, 400000, 0.230671, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 400000, 0.326538, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 400000, 0.338525, DELETE all records from history where country='Norway'
-DELETE_100K, False, 400000, 0.262362, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 425000, 20.128821, Create history table and load data into it from phistory.tsv
-SELECT, False, 425000, 0.197609, SELECT query given in the PDF
-INSERT_1000, False, 425000, 0.20767, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 425000, 0.240435, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 425000, 0.307174, DELETE all records from history where country='Norway'
-DELETE_100K, False, 425000, 0.303119, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 450000, 10.638891, Create history table and load data into it from phistory.tsv
-SELECT, False, 450000, 0.194987, SELECT query given in the PDF
-INSERT_1000, False, 450000, 0.225864, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 450000, 0.238639, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 450000, 0.295634, DELETE all records from history where country='Norway'
-DELETE_100K, False, 450000, 0.306309, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 475000, 22.116255, Create history table and load data into it from phistory.tsv
-SELECT, False, 475000, 0.210163, SELECT query given in the PDF
-INSERT_1000, False, 475000, 0.294509, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 475000, 0.326608, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 475000, 0.307954, DELETE all records from history where country='Norway'
-DELETE_100K, False, 475000, 0.264877, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 500000, 20.639115, Create history table and load data into it from phistory.tsv
-SELECT, False, 500000, 0.240842, SELECT query given in the PDF
-INSERT_1000, False, 500000, 0.254602, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 500000, 0.337314, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 500000, 0.301676, DELETE all records from history where country='Norway'
-DELETE_100K, False, 500000, 0.285852, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 525000, 10.456981, Create history table and load data into it from phistory.tsv
-SELECT, False, 525000, 0.190193, SELECT query given in the PDF
-INSERT_1000, False, 525000, 0.201317, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 525000, 0.20986, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 525000, 0.299073, DELETE all records from history where country='Norway'
-DELETE_100K, False, 525000, 0.307957, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 550000, 14.441134, Create history table and load data into it from phistory.tsv
-SELECT, False, 550000, 0.180909, SELECT query given in the PDF
-INSERT_1000, False, 550000, 0.186269, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 550000, 0.263958, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 550000, 0.242972, DELETE all records from history where country='Norway'
-DELETE_100K, False, 550000, 0.316028, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 575000, 23.534229, Create history table and load data into it from phistory.tsv
-SELECT, False, 575000, 0.189329, SELECT query given in the PDF
-INSERT_1000, False, 575000, 0.321225, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 575000, 0.323402, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 575000, 0.281301, DELETE all records from history where country='Norway'
-DELETE_100K, False, 575000, 0.312121, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 600000, 12.670555, Create history table and load data into it from phistory.tsv
-SELECT, False, 600000, 0.152492, SELECT query given in the PDF
-INSERT_1000, False, 600000, 0.228993, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 600000, 0.221571, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 600000, 0.294157, DELETE all records from history where country='Norway'
-DELETE_100K, False, 600000, 0.33625, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 625000, 14.737169, Create history table and load data into it from phistory.tsv
-SELECT, False, 625000, 0.211429, SELECT query given in the PDF
-INSERT_1000, False, 625000, 0.229269, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, False, 625000, 0.577314, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, False, 625000, 0.33348, DELETE all records from history where country='Norway'
-DELETE_100K, False, 625000, 0.325411, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 300000, 17.785894, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 300000, 0.323277, Created index on city from the table history
-SELECT, True, 300000, 0.331827, SELECT query given in the PDF
-INSERT_1000, True, 300000, 0.579552, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 300000, 0.393105, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 300000, 0.451892, DELETE all records from history where country='Norway'
-DELETE_100K, True, 300000, 0.299641, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 325000, 14.37736, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 325000, 0.246643, Created index on city from the table history
-SELECT, True, 325000, 0.131806, SELECT query given in the PDF
-INSERT_1000, True, 325000, 0.281371, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 325000, 0.428501, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 325000, 0.49185, DELETE all records from history where country='Norway'
-DELETE_100K, True, 325000, 0.388482, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 350000, 23.656066, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 350000, 0.288384, Created index on city from the table history
-SELECT, True, 350000, 0.364863, SELECT query given in the PDF
-INSERT_1000, True, 350000, 0.542075, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 350000, 0.289284, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 350000, 0.302367, DELETE all records from history where country='Norway'
-DELETE_100K, True, 350000, 0.293973, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 375000, 14.924241, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 375000, 0.314928, Created index on city from the table history
-SELECT, True, 375000, 0.446893, SELECT query given in the PDF
-INSERT_1000, True, 375000, 0.54055, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 375000, 0.284636, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 375000, 0.323315, DELETE all records from history where country='Norway'
-DELETE_100K, True, 375000, 0.313207, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 400000, 11.306439, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 400000, 0.212605, Created index on city from the table history
-SELECT, True, 400000, 0.300255, SELECT query given in the PDF
-INSERT_1000, True, 400000, 0.369275, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 400000, 0.293424, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 400000, 0.367599, DELETE all records from history where country='Norway'
-DELETE_100K, True, 400000, 0.386968, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 425000, 28.082545, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 425000, 0.414199, Created index on city from the table history
-SELECT, True, 425000, 0.379214, SELECT query given in the PDF
-INSERT_1000, True, 425000, 0.472886, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 425000, 0.245241, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 425000, 0.325183, DELETE all records from history where country='Norway'
-DELETE_100K, True, 425000, 0.337447, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 450000, 20.799399, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 450000, 0.464553, Created index on city from the table history
-SELECT, True, 450000, 0.456513, SELECT query given in the PDF
-INSERT_1000, True, 450000, 0.904313, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 450000, 0.295257, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 450000, 0.410469, DELETE all records from history where country='Norway'
-DELETE_100K, True, 450000, 0.358356, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 475000, 11.791632, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 475000, 0.260931, Created index on city from the table history
-SELECT, True, 475000, 0.183054, SELECT query given in the PDF
-INSERT_1000, True, 475000, 0.296935, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 475000, 0.466157, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 475000, 0.297923, DELETE all records from history where country='Norway'
-DELETE_100K, True, 475000, 0.311589, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 500000, 24.03145, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 500000, 0.325767, Created index on city from the table history
-SELECT, True, 500000, 0.283797, SELECT query given in the PDF
-INSERT_1000, True, 500000, 0.586055, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 500000, 0.298677, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 500000, 0.317697, DELETE all records from history where country='Norway'
-DELETE_100K, True, 500000, 0.256144, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 525000, 10.484757, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 525000, 0.237788, Created index on city from the table history
-SELECT, True, 525000, 0.096228, SELECT query given in the PDF
-INSERT_1000, True, 525000, 0.165058, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 525000, 0.281578, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 525000, 0.315611, DELETE all records from history where country='Norway'
-DELETE_100K, True, 525000, 0.341771, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 550000, 15.381996, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 550000, 0.320528, Created index on city from the table history
-SELECT, True, 550000, 0.436154, SELECT query given in the PDF
-INSERT_1000, True, 550000, 0.761595, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 550000, 0.37068, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 550000, 0.253498, DELETE all records from history where country='Norway'
-DELETE_100K, True, 550000, 0.285208, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 575000, 22.485489, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 575000, 0.3445, Created index on city from the table history
-SELECT, True, 575000, 0.442658, SELECT query given in the PDF
-INSERT_1000, True, 575000, 0.575415, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 575000, 0.21677, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 575000, 0.302966, DELETE all records from history where country='Norway'
-DELETE_100K, True, 575000, 0.248529, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 600000, 21.343916, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 600000, 0.285331, Created index on city from the table history
-SELECT, True, 600000, 0.579558, SELECT query given in the PDF
-INSERT_1000, True, 600000, 0.694956, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 600000, 0.351447, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 600000, 0.351879, DELETE all records from history where country='Norway'
-DELETE_100K, True, 600000, 0.298093, DELETE 100,000 records from history
-CREATE_AND_LOAD_NEW, False, 625000, 21.123266, Create history table and load data into it from phistory.tsv
-CREATE_INDEX, True, 625000, 0.629219, Created index on city from the table history
-SELECT, True, 625000, 0.534207, SELECT query given in the PDF
-INSERT_1000, True, 625000, 0.981478, INSERT 1000 records from phistory2.tsv into table history
-DELETE_CITY, True, 625000, 0.249383, DELETE all records from history where city='Oslo'
-DELETE_COUNTRY, True, 625000, 0.359985, DELETE all records from history where country='Norway'
-DELETE_100K, True, 625000, 0.270933, DELETE 100,000 records from history
+CREATE_AND_LOAD_NEW, False, 20000, 1.99684, Create Person Table and load data
+CREATE_AND_LOAD_NEW, False, 300000, 5.810581, Create history table and load data into it from phistory.tsv
+CREATE_AND_LOAD_NEW, False, 300000, 18.337941, Create history table and load data into it from phistory.tsv
+SELECT, False, 300000, 0.199827, SELECT query given in the PDF
+INSERT_1000, False, 300000, 0.24665, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 300000, 0.238542, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 300000, 0.296168, DELETE all records from history where country='Norway'
+DELETE_100K, False, 300000, 0.267889, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 300000, 9.01453, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 300000, 0.503516, Created index on city from the table history
+SELECT, True, 300000, 0.707696, SELECT query given in the PDF
+INSERT_1000, True, 300000, 0.859767, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 300000, 0.306479, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 300000, 0.278463, DELETE all records from history where country='Norway'
+DELETE_100K, True, 300000, 0.27963, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 325000, 18.924504, Create history table and load data into it from phistory.tsv
+SELECT, False, 325000, 0.192016, SELECT query given in the PDF
+INSERT_1000, False, 325000, 0.253154, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 325000, 0.545276, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 325000, 0.471144, DELETE all records from history where country='Norway'
+DELETE_100K, False, 325000, 0.284619, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 325000, 11.483443, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 325000, 0.46408, Created index on city from the table history
+SELECT, True, 325000, 0.350301, SELECT query given in the PDF
+INSERT_1000, True, 325000, 0.701967, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 325000, 0.351302, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 325000, 0.273886, DELETE all records from history where country='Norway'
+DELETE_100K, True, 325000, 0.264163, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 350000, 13.610461, Create history table and load data into it from phistory.tsv
+SELECT, False, 350000, 0.191704, SELECT query given in the PDF
+INSERT_1000, False, 350000, 0.213221, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 350000, 0.260254, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 350000, 0.293786, DELETE all records from history where country='Norway'
+DELETE_100K, False, 350000, 0.239381, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 350000, 15.59486, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 350000, 0.390647, Created index on city from the table history
+SELECT, True, 350000, 0.449604, SELECT query given in the PDF
+INSERT_1000, True, 350000, 0.43551, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 350000, 0.246919, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 350000, 0.357702, DELETE all records from history where country='Norway'
+DELETE_100K, True, 350000, 0.290326, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 375000, 24.795798, Create history table and load data into it from phistory.tsv
+SELECT, False, 375000, 0.290541, SELECT query given in the PDF
+INSERT_1000, False, 375000, 0.257487, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 375000, 0.255494, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 375000, 0.238882, DELETE all records from history where country='Norway'
+DELETE_100K, False, 375000, 0.226942, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 375000, 12.202749, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 375000, 0.566276, Created index on city from the table history
+SELECT, True, 375000, 0.634326, SELECT query given in the PDF
+INSERT_1000, True, 375000, 1.14508, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 375000, 0.261313, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 375000, 0.252889, DELETE all records from history where country='Norway'
+DELETE_100K, True, 375000, 0.352044, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 400000, 16.741462, Create history table and load data into it from phistory.tsv
+SELECT, False, 400000, 0.213384, SELECT query given in the PDF
+INSERT_1000, False, 400000, 0.285187, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 400000, 0.286571, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 400000, 0.306274, DELETE all records from history where country='Norway'
+DELETE_100K, False, 400000, 0.297072, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 400000, 11.308542, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 400000, 0.429547, Created index on city from the table history
+SELECT, True, 400000, 0.577728, SELECT query given in the PDF
+INSERT_1000, True, 400000, 0.701374, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 400000, 0.35359, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 400000, 0.318121, DELETE all records from history where country='Norway'
+DELETE_100K, True, 400000, 0.255326, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 425000, 13.305107, Create history table and load data into it from phistory.tsv
+SELECT, False, 425000, 0.15524, SELECT query given in the PDF
+INSERT_1000, False, 425000, 0.274746, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 425000, 0.377374, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 425000, 0.282825, DELETE all records from history where country='Norway'
+DELETE_100K, False, 425000, 0.288064, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 425000, 17.603595, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 425000, 0.313697, Created index on city from the table history
+SELECT, True, 425000, 0.179176, SELECT query given in the PDF
+INSERT_1000, True, 425000, 0.356035, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 425000, 0.256829, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 425000, 0.323575, DELETE all records from history where country='Norway'
+DELETE_100K, True, 425000, 0.299538, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 450000, 14.510884, Create history table and load data into it from phistory.tsv
+SELECT, False, 450000, 0.23356, SELECT query given in the PDF
+INSERT_1000, False, 450000, 0.231043, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 450000, 0.347475, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 450000, 0.306995, DELETE all records from history where country='Norway'
+DELETE_100K, False, 450000, 0.361331, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 450000, 16.100438, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 450000, 0.325997, Created index on city from the table history
+SELECT, True, 450000, 0.629527, SELECT query given in the PDF
+INSERT_1000, True, 450000, 0.889092, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 450000, 0.309216, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 450000, 0.272543, DELETE all records from history where country='Norway'
+DELETE_100K, True, 450000, 0.262965, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 475000, 9.654269, Create history table and load data into it from phistory.tsv
+SELECT, False, 475000, 0.207296, SELECT query given in the PDF
+INSERT_1000, False, 475000, 0.217733, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 475000, 0.265578, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 475000, 0.320561, DELETE all records from history where country='Norway'
+DELETE_100K, False, 475000, 0.286389, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 475000, 12.082109, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 475000, 0.487818, Created index on city from the table history
+SELECT, True, 475000, 0.358583, SELECT query given in the PDF
+INSERT_1000, True, 475000, 0.589215, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 475000, 0.294651, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 475000, 0.441596, DELETE all records from history where country='Norway'
+DELETE_100K, True, 475000, 0.261643, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 500000, 24.313735, Create history table and load data into it from phistory.tsv
+SELECT, False, 500000, 0.23256, SELECT query given in the PDF
+INSERT_1000, False, 500000, 0.180459, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 500000, 0.29937, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 500000, 0.262481, DELETE all records from history where country='Norway'
+DELETE_100K, False, 500000, 0.298346, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 500000, 16.660471, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 500000, 0.597261, Created index on city from the table history
+SELECT, True, 500000, 0.397364, SELECT query given in the PDF
+INSERT_1000, True, 500000, 0.513895, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 500000, 0.205713, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 500000, 0.362274, DELETE all records from history where country='Norway'
+DELETE_100K, True, 500000, 0.454527, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 525000, 18.983753, Create history table and load data into it from phistory.tsv
+SELECT, False, 525000, 0.170869, SELECT query given in the PDF
+INSERT_1000, False, 525000, 0.167131, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 525000, 0.231834, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 525000, 0.292086, DELETE all records from history where country='Norway'
+DELETE_100K, False, 525000, 0.321484, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 525000, 12.210502, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 525000, 0.377452, Created index on city from the table history
+SELECT, True, 525000, 0.478798, SELECT query given in the PDF
+INSERT_1000, True, 525000, 0.925802, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 525000, 0.290847, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 525000, 0.316333, DELETE all records from history where country='Norway'
+DELETE_100K, True, 525000, 0.315243, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 550000, 11.152514, Create history table and load data into it from phistory.tsv
+SELECT, False, 550000, 0.229781, SELECT query given in the PDF
+INSERT_1000, False, 550000, 0.276993, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 550000, 0.470243, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 550000, 0.259103, DELETE all records from history where country='Norway'
+DELETE_100K, False, 550000, 0.34169, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 550000, 14.775292, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 550000, 0.208323, Created index on city from the table history
+SELECT, True, 550000, 0.111565, SELECT query given in the PDF
+INSERT_1000, True, 550000, 0.207163, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 550000, 0.297958, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 550000, 0.403469, DELETE all records from history where country='Norway'
+DELETE_100K, True, 550000, 0.414916, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 575000, 22.105684, Create history table and load data into it from phistory.tsv
+SELECT, False, 575000, 0.198129, SELECT query given in the PDF
+INSERT_1000, False, 575000, 0.310929, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 575000, 0.333506, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 575000, 0.321875, DELETE all records from history where country='Norway'
+DELETE_100K, False, 575000, 0.30406, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 575000, 12.684158, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 575000, 0.40077, Created index on city from the table history
+SELECT, True, 575000, 0.390545, SELECT query given in the PDF
+INSERT_1000, True, 575000, 0.886079, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 575000, 0.235002, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 575000, 0.398256, DELETE all records from history where country='Norway'
+DELETE_100K, True, 575000, 0.306804, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 600000, 20.224189, Create history table and load data into it from phistory.tsv
+SELECT, False, 600000, 0.225239, SELECT query given in the PDF
+INSERT_1000, False, 600000, 0.30544, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 600000, 0.255741, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 600000, 0.343445, DELETE all records from history where country='Norway'
+DELETE_100K, False, 600000, 0.278755, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 600000, 12.263382, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 600000, 0.282183, Created index on city from the table history
+SELECT, True, 600000, 0.291385, SELECT query given in the PDF
+INSERT_1000, True, 600000, 0.710875, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 600000, 0.337874, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 600000, 0.379069, DELETE all records from history where country='Norway'
+DELETE_100K, True, 600000, 0.276069, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 625000, 13.137563, Create history table and load data into it from phistory.tsv
+SELECT, False, 625000, 0.197419, SELECT query given in the PDF
+INSERT_1000, False, 625000, 0.255418, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, False, 625000, 0.204141, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, False, 625000, 0.301481, DELETE all records from history where country='Norway'
+DELETE_100K, False, 625000, 0.280945, DELETE 100K records from history
+CREATE_AND_LOAD_NEW, False, 625000, 23.650638, Create history table and load data into it from phistory.tsv
+CREATE_INDEX, True, 625000, 0.354823, Created index on city from the table history
+SELECT, True, 625000, 0.338683, SELECT query given in the PDF
+INSERT_1000, True, 625000, 0.596013, INSERT 1000 records from phistory2.tsv into table history
+DELETE_CITY, True, 625000, 0.316903, DELETE all records from history where city='Oslo'
+DELETE_COUNTRY, True, 625000, 0.353725, DELETE all records from history where country='Norway'
+DELETE_100K, True, 625000, 0.274878, DELETE 100K records from history

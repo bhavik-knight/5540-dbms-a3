@@ -34,8 +34,8 @@ def main():
     # create tables and load data
     db_object.create_tables(cnx)
 
-    for index in [False, True]:
-        for num_records in range(MIN_RECORDS, MAX_RECORDS + 1, INCREMENT):
+    for num_records in range(MIN_RECORDS, MAX_RECORDS + 1, INCREMENT):
+        for index in [False, True]:
             print("-" * 100)
             db_object.generate_history_records(cnx=cnx, num_records=num_records)
             experiment(cnx, num_records, index=index)
